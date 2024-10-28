@@ -1,3 +1,13 @@
+#start-screen {
+    background-image: url(../imagens/backgroundTelaInicial.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .container {
     display: flex;
     flex-direction: column;

@@ -15,6 +15,10 @@
 </head>
 
 <body>
+    <div id="start-screen">
+        <button id="start-button">Start</button>
+    </div>
+    <div id="game-container" style="display: none;">
     <div class="container">
         <div class="menu">
             <div class="menu-time">
@@ -27,7 +31,7 @@
             </div>
             <div class="menu-lives">
                 <img src="./src/imagens/player.png" alt="foto do jogador" height="60px">
-                <h2 id="lives"></h2>
+                <h2 id="lives">x</h2>
             </div>
         </div>
         <div class="panel">
@@ -48,7 +52,7 @@
             </div>
         </div>
     </div>
-
+</div>
 <script defer src="./src/scripts/engine.js"></script>
 </body>
 
