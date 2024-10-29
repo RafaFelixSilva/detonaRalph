@@ -8,6 +8,12 @@
     height: 100vh;
 }
 
+#start-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     flex-direction: column;
